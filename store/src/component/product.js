@@ -13,7 +13,8 @@ export default function Products() {
             <button onClick={() => setCount(count + 1)}>Increment</button>
             <button onClick={() => setCount(count - 1)}>Decrement</button>
 
-
+            <button onClick={() => setCount(count * 2)}>Double</button>
+            <button onClick={() => setCount(0)}>Reset</button>
 
 
         </div>
