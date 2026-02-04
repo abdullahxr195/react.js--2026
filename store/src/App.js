@@ -5,6 +5,7 @@ import Footer from './component/footer';
 import Home from './component/home';
 import Products from './component/product';
 import{BrowserRouter ,Routes, Route} from 'react-router-dom';
+import SupProduct from './component/supProduct';
 function App() {
   return (
     
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" Component={Home} />
           <Route path="/products"  Component={Products} />
+           <Route path="/subproduct"  Component={SupProduct} />
         </Routes>
 
         <Footer/>
