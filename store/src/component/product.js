@@ -6,11 +6,11 @@ export default function Products() {
 
 
 
-        const supproduct=[
+        const supproduct=[      
 
             {id:1, name:'Product A', price:100 ,image:''},
             {id:2, name:'Product B', price:150 ,image:''},
-            {id:3, name:'Product C', price:200 ,image:''}
+            {id:3, name:'Product C', price:200 ,image:''},
 
 
 
@@ -45,31 +45,14 @@ export default function Products() {
                             <img width={100} src={item.image} alt={item.name}/>
                             <Link to='/subproduct' state={item}>View</Link>
 
-
-
                         </div>
-
-
-
-
-
 
 
                     </li>)
 
-
-
-
-
                 }
 
-
-
-
-
             </ul>
-
-
 
           </div>
 
